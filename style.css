@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800.900&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins";
+    background-color: #3b082c;
+}
+
+
+/*Header*/
+
+header h3 {
+    color: #ddd;
+    margin-left: 35px;
+}
+
+
+/* Style the side navigation */
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #5e1347;
+    overflow-x: hidden;
+    margin: auto;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Side navigation links */
+
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color on hover */
+
+.sidenav a:hover {
+    color: black;
+}
+
+
+/* Style the content */
+
+.home-info {
+    background-color: #4e103b;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    place-items: center;
+    color: #ddd;
+    margin: auto;
+    left: 70px;
+    position: relative;
+    width: 960px;
+}
+
+img {
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+
+.home-info p {
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 18px;
+}
+
+.home-info h1 {
+    margin: 2rem;
+    padding-top: 2rem;
+}
+
+.literary-work {
+    background-color: #4e2642;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    place-items: center;
+    color: #ddd;
+    margin: auto;
+    left: 70px;
+    position: relative;
+    width: 960px;
+}
+
+.literary-work table {
+    margin: auto;
+}
+
+.literary-work p {
+    font-size: 18px;
+    margin: 2rem;
+}
+
+.literary-work h1 {
+    margin: 2rem;
+    padding-top: 2rem;
+}
+
+.pupin-coils {
+    flex: 1 1 30rem;
+    background-color: #3b082c;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    place-items: center;
+    color: #ddd;
+    margin: auto;
+    left: 70px;
+    position: relative;
+    width: 960px;
+}
+
+.pupin-coils p {
+    margin: 2rem;
+    font-size: 18px;
+}
+
+.education {
+    background-color: #3b082c;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    place-items: center;
+    color: #ddd;
+    margin: auto;
+    left: 70px;
+    position: relative;
+    width: 960px;
+}
+
+.education p {
+    margin: 2rem;
+    font-size: 18px;
+}
+
+.education h1 {
+    margin: 2rem;
+    padding-top: 2rem;
+}
+
+.footer {
+    position: relative;
+    background-color: #3b082c;
+    padding: 5px;
+    text-align: center;
+    margin-top: 7rem;
+    z-index: 1000;
+    border-top-right-radius: 50px;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 1em;
+}
